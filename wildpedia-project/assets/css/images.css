@@ -1,0 +1,772 @@
+.intro-nav-container {
+  background: url(../images/background/bg-animals.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1.2) contrast(1.2) saturate(1.5);
+}
+
+.home-container .block-content:nth-child(1) {
+  background-image: url(../images/air/javan-hawk-eagle.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(1.2) contrast(1.2) saturate(1.3);
+}
+
+.home-container .block-content:nth-child(2) {
+  background: url(../images/forest/cross-river-gorilla.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(1.2) contrast(1.2) saturate(1.3);
+}
+
+.home-container .block-content:nth-child(3) {
+  background: url(../images/jungle/mandrill.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(1.2) contrast(1.2) saturate(1.3);
+}
+
+.home-container .block-content:nth-child(4) {
+  background: url(../images/desert/fennex-fox.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  filter: brightness(1.2) contrast(1.2) saturate(1.3);
+}
+
+.home-container .block-content:nth-child(5) {
+  background: url(../images/sea/peacock-mantis-shrimp.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  filter: brightness(1.2) contrast(1.2) saturate(1.3);
+}
+
+.home-container .block-content:nth-child(2) .right-content .cards:nth-child(1),
+.home-container .block-content:nth-child(3) .right-content .cards:nth-child(1),
+.home-container .block-content:nth-child(4) .right-content .cards:nth-child(1),
+.home-container .block-content:nth-child(5) .right-content .cards:nth-child(1) {
+  background: url(../images/air/javan-hawk-eagle.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-container .block-content:nth-child(1) .right-content .cards:nth-child(1),
+.home-container .block-content:nth-child(3) .right-content .cards:nth-child(2),
+.home-container .block-content:nth-child(4) .right-content .cards:nth-child(2),
+.home-container .block-content:nth-child(5) .right-content .cards:nth-child(2) {
+  background: url(../images/forest/cross-river-gorilla.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-container .block-content:nth-child(1) .right-content .cards:nth-child(2),
+.home-container .block-content:nth-child(2) .right-content .cards:nth-child(2),
+.home-container .block-content:nth-child(4) .right-content .cards:nth-child(3),
+.home-container .block-content:nth-child(5) .right-content .cards:nth-child(3) {
+  background: url(../images/jungle/mandrill.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-container .block-content:nth-child(1) .right-content .cards:nth-child(3),
+.home-container .block-content:nth-child(2) .right-content .cards:nth-child(3),
+.home-container .block-content:nth-child(3) .right-content .cards:nth-child(3),
+.home-container .block-content:nth-child(5) .right-content .cards:nth-child(4) {
+  background: url(../images/desert/fennex-fox.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-container .block-content:nth-child(1) .right-content .cards:nth-child(4),
+.home-container .block-content:nth-child(2) .right-content .cards:nth-child(4),
+.home-container .block-content:nth-child(3) .right-content .cards:nth-child(4),
+.home-container .block-content:nth-child(4) .right-content .cards:nth-child(4) {
+  background: url(../images/sea/peacock-mantis-shrimp.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.about-container {
+  background-image: url(../images/background/bg-jungle.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content:nth-child(1) {
+  background-image: url(../images/background/bg-air.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content:nth-child(2) .animals-container:nth-child(1) {
+  background: url(../images/background/bg-air.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content:nth-child(2) .animals-container:nth-child(2) {
+  background: url(../images/background/bg-forest.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content:nth-child(2) .animals-container:nth-child(3) {
+  background: url(../images/background/bg-jungle.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content:nth-child(2) .animals-container:nth-child(4) {
+  background: url(../images/background/bg-desert.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content:nth-child(2) .animals-container:nth-child(5) {
+  background: url(../images/background/bg-sea.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content .habitat-content .content .cards:nth-child(1) {
+  background: url(../images/background/bg-air.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content .habitat-content .content .cards:nth-child(2) {
+  background: url(../images/background/bg-forest.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content .habitat-content .content .cards:nth-child(3) {
+  background: url(../images/background/bg-jungle.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content .habitat-content .content .cards:nth-child(4) {
+  background: url(../images/background/bg-desert.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container .block-content .habitat-content .content .cards:nth-child(5) {
+  background: url(../images/background/bg-sea.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(1) {
+  background: url(../images/background/bg-air.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(2) {
+  background: url(../images/air/colugo.webp);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(3) {
+  background: url(../images/air/flying-squirrel.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(4) {
+  background: url(../images/air/greater-lophorina.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(5) {
+  background: url(../images/air/imperial-amazon.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(6) {
+  background: url(../images/air/javan-hawk-eagle.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(7) {
+  background: url(../images/air/magnificent-frigatebird.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(8) {
+  background: url(../images/air/mariana-fruit-dove.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(9) {
+  background: url(../images/air/shoebill-stork.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(10) {
+  background: url(../images/air/spix-macaw.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .air-content
+  .cards:nth-child(11) {
+  background: url(../images/air/white-hawk.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(1) {
+  background: url(../images/background/bg-forest.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(2) {
+  background: url(../images/forest/borneo-orangutan.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(3) {
+  background: url(../images/forest/clouded-leopard.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(4) {
+  background: url(../images/forest/cross-river-gorilla.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(5) {
+  background: url(../images/forest/golden-lion-tamarin.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(6) {
+  background: url(../images/forest/javan-rhinoceros.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(7) {
+  background: url(../images/forest/kakapo.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(8) {
+  background: url(../images/forest/philippines-eagle.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(9) {
+  background: url(../images/forest/saola.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(10) {
+  background: url(../images/forest/sumatran-tiger.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .forest-content
+  .cards:nth-child(11) {
+  background: url(../images/forest/sunda-pangolin.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(1) {
+  background: url(../images/background/bg-jungle.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(2) {
+  background: url(../images/jungle/binturong.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(3) {
+  background: url(../images/jungle/dhole.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(4) {
+  background: url(../images/jungle/gibbon.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(5) {
+  background: url(../images/jungle/glass-frog.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(6) {
+  background: url(../images/jungle/hornbill.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(7) {
+  background: url(../images/jungle/mandrill.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(8) {
+  background: url(../images/jungle/okapi.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(9) {
+  background: url(../images/jungle/satanic-leaf-tailed-gecko.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(10) {
+  background: url(../images/jungle/sloth.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .jungle-content
+  .cards:nth-child(11) {
+  background: url(../images/jungle/tapir.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(1) {
+  background: url(../images/background/bg-desert.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(2) {
+  background: url(../images/desert/arabian-sand-boa.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(3) {
+  background: url(../images/desert/death-stalker.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(4) {
+  background: url(../images/desert/egyptian-vulture.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(5) {
+  background: url(../images/desert/fennex-fox.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(6) {
+  background: url(../images/desert/gila-monster.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(7) {
+  background: url(../images/desert/greater-road-runner.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(8) {
+  background: url(../images/desert/horned-viper.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(9) {
+  background: url(../images/desert/jerboa.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(10) {
+  background: url(../images/desert/secretary-bird.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .desert-content
+  .cards:nth-child(11) {
+  background: url(../images/desert/wild-bactrian-camel.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(1) {
+  background: url(../images/background/bg-sea.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(2) {
+  background: url(../images/sea/blobfish.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(3) {
+  background: url(../images/sea/bobbit-worm.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(4) {
+  background: url(../images/sea/dumbo-octopus.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(5) {
+  background: url(../images/sea/frilled-shark.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(6) {
+  background: url(../images/sea/frogfish.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(7) {
+  background: url(../images/sea/goblin-shark.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(8) {
+  background: url(../images/sea/leafy-seadragon.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(9) {
+  background: url(../images/sea/peacock-mantis-shrimp.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(10) {
+  background: url(../images/sea/ribbon-eel.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topic-container
+  .block-content:nth-child(2)
+  .animals-container
+  .sea-content
+  .cards:nth-child(11) {
+  background: url(../images/sea/sunfish.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

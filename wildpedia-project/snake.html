@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="assets/css/snake.css" />
+    <link rel="stylesheet" href="assets/css/hover.css" />
+    <link
+      rel="icon"
+      href="assets/icons/light-snake.png"
+      type="image/png"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="icon"
+      href="assets/icons/dark-snake.png"
+      type="image/png"
+      media="(prefers-color-scheme: dark)"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="container-header">
+        <div class="content">
+          <button onclick="history.back()">Website</button>
+        </div>
+        <div class="content">
+          <h1 id="container-title">Snake Game</h1>
+        </div>
+      </header>
+
+      <div class="container-wrapper">
+        <div class="difficulties-container" id="difficulties-container">
+          <header class="difficulties-header">
+            <h1>Select Difficulties</h1>
+          </header>
+          <div class="difficulties-wrapper" id="difficulties-wrapper">
+            <div class="difficulties-content" onclick="setMode('EASY')">
+              <h1>EASY</h1>
+            </div>
+            <div class="difficulties-content" onclick="setMode('MEDIUM')">
+              <h1>MEDIUM</h1>
+            </div>
+            <div class="difficulties-content" onclick="setMode('HARD')">
+              <h1>HARD</h1>
+            </div>
+          </div>
+        </div>
+        <div class="difficulty-screen" id="difficulty-screen">
+          <div class="guide-mode" id="guide-mode">
+            <button id="back-btn" onclick="back_page()">Back</button>
+            <button id="guide-btn" onclick="guide_content()">Guide</button>
+            <button id="start-btn" onclick="start_game()">Start</button>
+            <span for="food">Food: </span>
+            <input
+              id="food-count"
+              type="text"
+              inputmode="numeric"
+              pattern="[1-5]*"
+              maxlength="1"
+              oninput="this.value = this.value.replace(/[^1-5]/g, '')"
+            />
+          </div>
+          <div class="guide-main" id="guide-main">
+            <div class="guide-content">
+              <button onclick="back_settings_mode()">Back</button>
+              <h2>Legend</h2>
+              <ul>
+                <li>
+                  <span class="legend-box" style="background: green"></span>
+                  Food (+1 Segment)
+                </li>
+                <li>
+                  <span class="legend-box" style="background: #555"></span>
+                  Obstacles (Dangerous)
+                </li>
+                <li>
+                  <span
+                    class="legend-box"
+                    style="background: blue; border-radius: 50%"
+                  ></span>
+                  Speed Potion (faster movement for 10s)
+                </li>
+                <li>
+                  <span
+                    class="legend-box"
+                    style="background: red; border-radius: 50%"
+                  ></span>
+                  Double Points (2x score per food for 10s)
+                </li>
+                <li>
+                  <span
+                    class="legend-box"
+                    style="background: orange; border-radius: 50%"
+                  ></span>
+                  Growth Potion (+2 size per food eaten 10s)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="canvas-area" id="canvas-area">
+            <div class="score-area">
+              <h2 class="score-text">Score: <span id="score-value">0</span></h2>
+              <h2 class="highscore-text">
+                Highscore: <span id="highscore-value">0</span>
+              </h2>
+            </div>
+            <canvas
+              class="game-canvas"
+              id="game-canvas"
+              width="800"
+              height="550"
+            ></canvas>
+            <div class="potion-cd" id="potion-cd"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/snake.js"></script>
+  </body>
+</html>
