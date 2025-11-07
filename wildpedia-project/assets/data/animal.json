@@ -317,7 +317,7 @@
   "desert": [
     {
       "name": "Arabian Sand Boa",
-      "image": "assets/images/Desert/arabian-sand-boa.webp",
+      "image": "assets/images/desert/arabian-sand-boa.webp",
       "video": "https://www.youtube.com/embed/ICzb-ibu-Vo",
       "credits": "Ben G Thomas",
       "location": "Deserts of the Arabian Peninsula, including Saudi Arabia, UAE, and Oman",
@@ -327,7 +327,7 @@
     },
     {
       "name": "Death Stalker",
-      "image": "assets/images/Desert/death-stalker.webp",
+      "image": "assets/images/desert/death-stalker.webp",
       "video": "https://www.youtube.com/embed/F-F_WOn_8xg",
       "credits": "Animal Snapz",
       "location": "Deserts of North Africa and the Middle East",
@@ -337,7 +337,7 @@
     },
     {
       "name": "Egyptian Vulture",
-      "image": "assets/images/Desert/egyptian-vulture.webp",
+      "image": "assets/images/desert/egyptian-vulture.webp",
       "video": "https://www.youtube.com/embed/lwEhutnjzeU",
       "credits": "San Diego Zoo",
       "location": "North Africa, Middle East, and parts of southern Europe",
@@ -347,7 +347,7 @@
     },
     {
       "name": "Fennec Fox",
-      "image": "assets/images/Desert/fennex-fox.webp",
+      "image": "assets/images/desert/fennex-fox.webp",
       "video": "https://www.youtube.com/embed/1IGw4UZcFkM",
       "credits": "WILDOPEDIA",
       "location": "Sahara Desert in North Africa, including Morocco, Algeria, Tunisia, Libya, Egypt, Sudan, and parts of the Arabian Peninsula",
@@ -357,7 +357,7 @@
     },
     {
       "name": "Gila Monster",
-      "image": "assets/images/Desert/gila-monster.webp",
+      "image": "assets/images/desert/gila-monster.webp",
       "video": "https://www.youtube.com/embed/yj1lBcQmQNE",
       "credits": "Fatherspeedy IAM",
       "location": "Southwestern United States and northern Mexico",
@@ -367,7 +367,7 @@
     },
     {
       "name": "Greater Road Runner",
-      "image": "assets/images/Desert/greater-road-runner.webp",
+      "image": "assets/images/desert/greater-road-runner.webp",
       "video": "https://www.youtube.com/embed/RFUtQbEYHJQ",
       "credits": "BBC Earth",
       "location": "Deserts and scrublands of the southwestern United States and Mexico",
@@ -377,7 +377,7 @@
     },
     {
       "name": "Horned Viper",
-      "image": "assets/images/Desert/horned-viper.webp",
+      "image": "assets/images/desert/horned-viper.webp",
       "video": "https://www.youtube.com/embed/qyDcuTjiQ7U",
       "credits": "Animal Fact Files",
       "location": "Sandy deserts of North Africa and the Middle East",
@@ -387,7 +387,7 @@
     },
     {
       "name": "Jerboa",
-      "image": "assets/images/Desert/jerboa.webp",
+      "image": "assets/images/desert/jerboa.webp",
       "video": "https://www.youtube.com/embed/bvoFTZ1Luro",
       "credits": "Wonder World",
       "location": "Deserts of North Africa and Asia, including the Sahara and Gobi deserts",
@@ -397,7 +397,7 @@
     },
     {
       "name": "Secretary Bird",
-      "image": "assets/images/Desert/secretary-bird.webp",
+      "image": "assets/images/desert/secretary-bird.webp",
       "video": "https://www.youtube.com/embed/JX2J4oeoiUU",
       "credits": "Wildacious",
       "location": "Savannas and open grasslands of sub-Saharan Africa",
@@ -407,7 +407,7 @@
     },
     {
       "name": "Wild Bactrian Camel",
-      "image": "assets/images/Desert/wild-bactrian-camel.webp",
+      "image": "assets/images/desert/wild-bactrian-camel.webp",
       "video": "https://www.youtube.com/embed/yTCicX7nljg",
       "credits": "Mammalwatching",
       "location": "Deserts of Central Asia, including the Gobi and Taklamakan deserts in China and Mongolia",
@@ -419,7 +419,7 @@
   "sea": [
     {
       "name": "Blob Fish",
-      "image": "assets/images/Sea/blobfish.webp",
+      "image": "assets/images/sea/blobfish.webp",
       "video": "https://www.youtube.com/embed/58Cw4a7WxDo",
       "credits": "1 Minute Animals",
       "location": "Deep waters off Australia and New Zealand",
@@ -429,7 +429,7 @@
     },
     {
       "name": "Bobbit Worm",
-      "image": "assets/images/Sea/bobbit-worm.webp",
+      "image": "assets/images/sea/bobbit-worm.webp",
       "video": "https://www.youtube.com/embed/P3kLeRSiCjM",
       "credits": "naturelenses",
       "location": "Tropical and subtropical oceans worldwide",
@@ -439,7 +439,7 @@
     },
     {
       "name": "Dumbo Octopus",
-      "image": "assets/images/Sea/dumbo-octopus.webp",
+      "image": "assets/images/sea/dumbo-octopus.webp",
       "video": "https://www.youtube.com/embed/YcoMEaBjJLk",
       "credits": "The Dodo",
       "location": "Deep oceans worldwide, 3,000–4,000 meters deep",
@@ -449,7 +449,7 @@
     },
     {
       "name": "Frilled Shark",
-      "image": "assets/images/Sea/frilled-shark.webp",
+      "image": "assets/images/sea/frilled-shark.webp",
       "video": "https://www.youtube.com/embed/qYH32gKMHuc",
       "credits": "Discovery",
       "location": "Deep waters of the Atlantic and Pacific Oceans",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Frogfish",
-      "image": "assets/images/Sea/frogfish.webp",
+      "image": "assets/images/sea/frogfish.webp",
       "video": "https://www.youtube.com/embed/uRP4nAGMYCY",
       "credits": "Ze Frank",
       "location": "Tropical and subtropical coral reefs worldwide",
@@ -469,7 +469,7 @@
     },
     {
       "name": "Goblin Shark",
-      "image": "assets/images/Sea/goblin-shark.webp",
+      "image": "assets/images/sea/goblin-shark.webp",
       "video": "http://youtube.com/embed/P8TT90LWYaw",
       "credits": "National Geographic",
       "location": "Deep waters worldwide, 100–1,200 meters deep",
@@ -479,7 +479,7 @@
     },
     {
       "name": "Leafy Seadragon",
-      "image": "assets/images/Sea/leafy-seadragon.webp",
+      "image": "assets/images/sea/leafy-seadragon.webp",
       "video": "https://www.youtube.com/embed/NsGK7cUdelM",
       "credits": "Deep Marine Scenes",
       "location": "Southern and western coasts of Australia",
@@ -489,7 +489,7 @@
     },
     {
       "name": "Peacock Mantis Shrimp",
-      "image": "assets/images/Sea/peacock-mantis-shrimp.webp",
+      "image": "assets/images/sea/peacock-mantis-shrimp.webp",
       "video": "https://www.youtube.com/embed/E0Li1k5hGBE",
       "credits": "Nat Geo Animals",
       "location": "Indo-Pacific coral reefs",
@@ -499,7 +499,7 @@
     },
     {
       "name": "Ribbon Eel",
-      "image": "assets/images/Sea/ribbon-eel.webp",
+      "image": "assets/images/sea/ribbon-eel.webp",
       "video": "https://www.youtube.com/embed/5kqA5WIJl_g",
       "credits": "Ben G Thomas",
       "location": "Indo-Pacific coral reefs, East Africa to Australia",
@@ -509,7 +509,7 @@
     },
     {
       "name": "Sunfish",
-      "image": "assets/images/Sea/sunfish.webp",
+      "image": "assets/images/sea/sunfish.webp",
       "video": "https://www.youtube.com/embed/lEj8bnx0TB0",
       "credits": "Real Science",
       "location": "Temperate and tropical oceans worldwide",
