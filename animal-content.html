@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="assets/css/animal.css" />
+    <link rel="stylesheet" href="assets/css/hover.css" />
+    <link
+      rel="icon"
+      href="assets/icons/light-wp.png"
+      type="image/png"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="icon"
+      href="assets/icons/dark-wp.png"
+      type="image/png"
+      media="(prefers-color-scheme: dark)"
+    />
+  </head>
+  <body>
+    <section class="animal-container" id="animal-container">
+      <header>
+        <nav role="navigation">
+          <div class="nav-left">
+            <button id="back-btn" onclick="window.location.href='topic.html'">
+              Back To Habitat
+            </button>
+          </div>
+          <div class="nav-center">
+            <h1 class="animal-name-text" id="animal-name">
+              <!-- ANIMAL NAME -->
+            </h1>
+          </div>
+        </nav>
+      </header>
+
+      <article id="article-container">
+        <div class="image-video-container" id="image-video-container">
+          <div class="image-content" id="image-content">
+            <img id="animal-image" src="" alt="" />
+            <button id="switch-video">Switch To Video</button>
+            <!-- Test image only-->
+          </div>
+          <div class="video-content" id="video-content">
+            <iframe
+              id="animal-video"
+              src=""
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p id="ctto"></p>
+            <!-- Credits To The Owner-->
+            <button id="switch-image">Switch To Image</button>
+          </div>
+        </div>
+        <div class="descriptions">
+          <h2 class="location-title">LOCATION</h2>
+          <p class="location-text" id="location-text"></p>
+          <!-- Location -->
+          <h2 class="desc-title">DESCRIPTION</h2>
+          <p class="desc-text" id="desc-text"></p>
+          <!-- Description -->
+          <h2 class="trivia-title">TRIVIA</h2>
+          <p class="trivia-text" id="trivia-text"></p>
+          <!-- trivia -->
+          <h2 class="funfact-title">FUN FACT</h2>
+          <p class="funfact-text" id="funfact-text"></p>
+          <!-- Fun Fact -->
+        </div>
+      </article>
+      <footer>
+        <div class="animal-gallery">
+          <div class="other-animals-text">
+            <p>Other Animals in this habitat</p>
+          </div>
+
+          <div class="image-container">
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+            <div class="image-content">
+              <img />
+            </div>
+          </div>
+        </div>
+        <!-- Images based on habitat -->
+      </footer>
+    </section>
+
+    <script src="assets/js/animal.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+  </body>
+</html>
